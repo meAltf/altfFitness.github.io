@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-image: url(back.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 120vh;
+}
+
+.logo{
+    width: 7%;
+    padding: 10px;
+    background: none;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: none;
+}
+
+nav ul li{
+    List-style: none;
+    padding: 30px 20px;
+    background: none;
+}
+
+nav ul li a{
+    background: #3d7130;
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-size: 1.1em;
+    border-radius: 13px;
+}
+
+nav ul li a:hover{
+   background: #239E04;
+   transition: 0.6s ease;
+}
+
+h2{
+    color: rgb(63, 102, 54);
+    background: none;
+}
+
+div h2.first{
+    float: left;
+    top:60%;
+    left: 18%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    background: none;
+    font-size: 5em;
+}
+
+div h2.second{
+    float: left;
+    top:72%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    background: none;
+    font-size: 4.2em;
+}
+
+div h3{
+    float:left;
+    top:81%;
+    left:18%;
+    color:#3d7130;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    background: none;
+    font-size: 1.8em;
+}
+
+div input{
+    float:left;
+    top:7%;
+    left:85%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    background: white;
+    border-style: none;
+    outline: none;
+    border-radius: 25px;
+} 
+
+input{
+    padding: 20px 40px;
+    font-style: 1.1em;
+    color:#000;
+    width: 15%;
+    transition: 0.25s;
+}
+
+input:focus{
+    width:20%;
+}
+
+button{
+    font-size: 1.6em;
+    padding: 10px 3px;
+    color:white;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+div button.firstbutton{
+    float:left;
+    top:90%;
+    left:17%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    background: #3d7130;
+    border-style: none;
+    outline: none;
+    width: 17%;
+    transition: 0.25s;
+}
+
+div button.firstbutton:focus{
+    width: 19%;
+    background: #0d3802;
+}
+
+div button.secondtbutton{
+    float:left;
+    top:90%;
+    left:32%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    background: #3d7130;
+    border-style: none;
+    outline: none;
+    width: 9%;
+    transition: 0.25s;
+}
+
+div button.secondtbutton:focus{
+    width: 11%;
+    background: #0d3802;
+}
+
+section{
+    background: white;
+    margin:auto;
+    padding:0;
+}
+
+p{
+    font-size: 1.2em;
+    background: white;
+    padding: 50px 150px;
+}
+
+section h2{
+    color: #4298D0;
+    font-size: 3em;
+    padding-bottom: 50px;
+    border-bottom: 3px solid #4298D0;
+    text-align: center;
+    align-items: center;  
+}
+
+iframe{
+    padding: 50px 55px;
+}
+
+section h4{
+    width:100%;
+    font-size: 2em;
+    color: white;
+    padding: 60px 200px;
+    background: #4298D0;
+}
+
+button.last{
+    font-size: 1em;
+    color: white;
+    padding: 10px 15px;
+    background: #041825;
+    border-style: none;
+    outline: none;
+    border-radius: 10px;
+    align-items:center;
+    text-align: center;
+    float:left;
+    top:256.5%;
+    left: 70%;
+    transform: translate(-50% -50%);
+    position: absolute;
+
+}
+
+.lastsection{
+    background: #041826;
+}
+
+.lastsection .black{
+    padding-left: 10px;
+    padding-bottom: 30px;
+}
+
+.block{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 32%;
+}
+
+section.lastsection .block p{
+    color: #A4AFB1;
+    font-size: 1em;
+    background: #041825;
+    text-align: justify;
+    align-items: center;
+    padding: 50px;
+}
+
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    text-align: center;
+    padding: 0 0;
+    margin: 0 0;
+    background: #212432;
+    color: white;
+    font-size: 0.8em;
+    padding: 50px 0;
+    line-height: 45px;
+}
+
+footer ul{
+    list-style: none;
+}
+
+.footer1, .footer2, .footer3{
+    padding: 0px 60px;
+    text-align: justify;
+    color: #B1C0C2;
+}
